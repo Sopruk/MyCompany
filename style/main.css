@@ -1,0 +1,138 @@
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /*-------- first display --------*/
+
+        .header{
+            background-color: #111;
+            height:100vh;
+        }
+        .container{
+            padding-top: 50px;
+            width: 1200px;
+            margin: 0 auto;
+        }
+        .logo{
+            float:left;
+        }
+        .logo a{
+            font-family: 'Open Sans', sans-serif;
+            text-transform: uppercase;
+            font-size:24px;
+            text-decoration: none;
+            color:white;
+            font-weight: 900;
+        }
+        .navbar{
+        }
+        .menu{
+            float: right;
+        }
+        .menu ul{
+            margin-top: 0;
+            -webkit-transition:0.8s all;
+        }
+        .menu li{
+            display: inline;
+            list-style: none;
+            margin-left:30px;
+        }
+        .menu a{
+            padding-bottom: 12px;
+            font-family: 'Open Sans', sans-serif;
+            text-transform: uppercase;
+            font-size:14px;
+            text-decoration: none;
+            color:white;
+            font-weight: bold;
+        }
+        .menu a:hover{
+            border-bottom: 3px solid #fcac45; 
+        }
+        .menu .active{
+            border-bottom: 3px solid #fcac45;
+        }
+        .witget{
+            margin-top: 30vh;
+            align-items: center;
+        }
+        .witget h1{
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 100;
+            font-size:44px;
+            font-family: 'Open Sans', sans-serif;
+            color:#909090;
+        }
+        .witget .yelow_bold{
+            font-weight: bold;
+            color:#eea241;
+        }
+        .witget h3{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 20px;
+            text-align: center;
+            font-weight: 300;
+            color:#878787;
+        }
+        .witget .yoe{
+            font-weight: bold;
+            color:#cecece;
+        }
+        
+        /*-------- about display --------*/
+        .about{
+            height: 100vh;
+            display: block;
+        }
+        .about .container{
+            padding-top: 10%;
+        }
+        .about .image{
+            float: left;
+            width: 507px;
+        }
+        .about_title{
+            float: right;
+            width: 405px;
+        }
+        .about_title h3{
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 300;
+            font-size:34px;
+            font-family: 'Open Sans', sans-serif;
+            color:#222;
+            border-bottom: 4px solid #fcac45;
+        }
+        .about_title p{
+            text-align: justify;
+            text-transform: uppercase;
+            font-weight: 100;
+            font-size:18px;
+            font-family: 'Open Sans', sans-serif;
+            color:#222;
+        }
+        .about_title ul{
+            padding: 0;
+        }
+        .about_title li{
+            line-height: 36px;
+            list-style: none;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .about_title li b{
+            font-size: 18px;
+        }
+        .about_title li i{
+            font-size: 16px;
+        }
+        .about_title li img{
+        }
