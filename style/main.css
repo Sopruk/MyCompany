@@ -1,227 +1,280 @@
-    body{
-        margin: 0;
-        padding: 0;
-    }
-    .clearfix::after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-
-        /*-------- first display --------*/
-
-        .header{
-            background-color: #111;
-            height:100vh;
-        }
-        .container{
-            padding-top: 50px;
-            width: 1200px;
-            margin: 0 auto;
-        }
-        .logo{
-            float:left;
-        }
-        .logo a{
-            font-family: 'Open Sans', sans-serif;
-            text-transform: uppercase;
-            font-size:24px;
-            text-decoration: none;
-            color:white;
-            font-weight: 900;
-        }
-        .navbar{
-        }
-        .menu{
-            float: right;
-        }
-        .menu ul{
-            margin-top: 0;
-            -webkit-transition:0.8s all;
-        }
-        .menu li{
-            display: inline;
-            list-style: none;
-            margin-left:30px;
-        }
-        .menu a{
-            padding-bottom: 12px;
-            font-family: 'Open Sans', sans-serif;
-            text-transform: uppercase;
-            font-size:14px;
-            text-decoration: none;
-            color:white;
-            font-weight: bold;
-        }
-        .menu a:hover{
-            border-bottom: 3px solid #fcac45; 
-        }
-        .menu .active{
-            border-bottom: 3px solid #fcac45;
-        }
-        .witget{
-            margin-top: 30vh;
-            align-items: center;
-        }
-        .witget h1{
-            text-align: center;
-            text-transform: uppercase;
-            font-weight: 100;
-            font-size:44px;
-            font-family: 'Open Sans', sans-serif;
-            color:#909090;
-        }
-        .witget .yelow_bold{
-            font-weight: bold;
-            color:#eea241;
-        }
-        .witget h3{
-            font-family: 'Open Sans', sans-serif;
-            font-size: 20px;
-            text-align: center;
-            font-weight: 300;
-            color:#878787;
-        }
-        .witget .yoe{
-            font-weight: bold;
-            color:#cecece;
-        }
-        
-        /*-------- about display --------*/
-
-        .about{
-            height: 100vh;
-            display: block;
-        }
-        .about .container{
-            padding-top: 10%;
-        }
-        .about .image{
-            float: left;
-            width: 507px;
-        }
-        .about_title{
-            float: right;
-            width: 405px;
-        }
-        .about_title h3{
-            text-align: center;
-            text-transform: uppercase;
-            font-weight: 300;
-            font-size:34px;
-            font-family: 'Open Sans', sans-serif;
-            color:#222;
-            border-bottom: 4px solid #fcac45;
-        }
-        .about_title p{
-            text-align: justify;
-            text-transform: uppercase;
-            font-weight: 100;
-            font-size:18px;
-            font-family: 'Open Sans', sans-serif;
-            color:#222;
-        }
-        .about_title ul{
+        body{
+            margin: 0;
             padding: 0;
         }
-        .about_title li{
-            line-height: 36px;
-            list-style: none;
+        .clearfix::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            /*-------- first display --------*/
+
+            .header{
+                background-color: #111;
+                height:100vh;
+            }
+            .container{
+                padding-top: 50px;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            .logo{
+                float:left;
+            }
+            .logo a{
+                font-family: 'Open Sans', sans-serif;
+                text-transform: uppercase;
+                font-size:24px;
+                text-decoration: none;
+                color:white;
+                font-weight: 900;
+            }
+            .navbar{
+            }
+            .menu{
+                float: right;
+            }
+            .menu ul{
+                margin-top: 0;
+                -webkit-transition:0.8s all;
+            }
+            .menu li{
+                display: inline;
+                list-style: none;
+                margin-left:30px;
+            }
+            .menu a{
+                padding-bottom: 12px;
+                font-family: 'Open Sans', sans-serif;
+                text-transform: uppercase;
+                font-size:14px;
+                text-decoration: none;
+                color:white;
+                font-weight: bold;
+            }
+            .menu a:hover{
+                border-bottom: 3px solid #fcac45; 
+            }
+            .menu .active{
+                border-bottom: 3px solid #fcac45;
+            }
+            .witget{
+                margin-top: 30vh;
+                align-items: center;
+            }
+            .witget h1{
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 100;
+                font-size:44px;
+                font-family: 'Open Sans', sans-serif;
+                color:#909090;
+            }
+            .witget .yelow_bold{
+                font-weight: bold;
+                color:#eea241;
+            }
+            .witget h3{
+                font-family: 'Open Sans', sans-serif;
+                font-size: 20px;
+                text-align: center;
+                font-weight: 300;
+                color:#878787;
+            }
+            .witget .yoe{
+                font-weight: bold;
+                color:#cecece;
+            }
+            
+            /*-------- about display --------*/
+
+            .about{
+                height: 100vh;
+                display: block;
+            }
+            .about .container{
+                padding-top: 10%;
+            }
+            .about .image{
+                float: left;
+                width: 507px;
+            }
+            .about_title{
+                float: right;
+                width: 430px;
+            }
+            .about_title h3{
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 300;
+                font-size:34px;
+                font-family: 'Open Sans', sans-serif;
+                color:#222;
+                border-bottom: 4px solid #fcac45;
+            }
+            .about_title p{
+                text-align: justify;
+                text-transform: uppercase;
+                font-weight: 100;
+                font-size:18px;
+                font-family: 'Open Sans', sans-serif;
+                color:#222;
+            }
+            .about_title ul{
+                padding: 0;
+            }
+            .about_title li{
+                line-height: 36px;
+                list-style: none;
+                font-family: 'Open Sans', sans-serif;
+            }
+            .about_title li b{
+                font-size: 18px;
+            }
+            .about_title li i{
+                font-size: 16px;
+            }
+
+        /*-------- our team display --------*/
+
+        .out_team{
+            height: 100vh;
             font-family: 'Open Sans', sans-serif;
+            background-color: #070707;
+            text-align: center;
+            color: #f0f0f0;
         }
-        .about_title li b{
-            font-size: 18px;
+        .out_team h2{
+            margin: 0;
+            padding: 0;
+            text-transform: uppercase;
+            font-size: 44px;
+            font-weight: 500;
+            color: white;
         }
-        .about_title li i{
+        .out_team .line{
+            width: 100px;
+            margin: 25px auto 55px auto;
+            border-bottom: 4px solid #fcac45;
+        }
+        .wrapper{
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .card{
+            border-radius: 3px;
+            padding-top: 20px;
+            width: 260px;
+            border: 1px solid rgb(68, 60, 60);
+            transition: 1s;
+        }
+        .card:hover{
+            width: 270px;
+            box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+        }
+        .card .image img{
+            width: 135px;
+            height: 135px;
+            margin: 0 auto;
+            background-color: #909090;
+            border-radius: 50%;
+        }
+        .card .fullname{
+            margin: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .card .position{
+            margin: 0;
             font-size: 16px;
+            font-weight: 100;
         }
+        .card p{
+            margin: 10px auto;
+            font-size: 14px;
+            width: 250px;
+        }
+        /*-------- our services display --------*/
 
-     /*-------- our team display --------*/
-
-     .out_team{
-         height: 100vh;
-         font-family: 'Open Sans', sans-serif;
-         background-color: #070707;
-         text-align: center;
-         color: #f0f0f0;
-     }
-     .out_team h2{
-         margin: 0;
-         padding: 0;
-         text-transform: uppercase;
-         font-size: 44px;
-         font-weight: 500;
-         color: white;
+        .out_services{
+            height: 100vh;
+            font-family: 'Open Sans', sans-serif;
+            background-color: white;
+            text-align: center;
+            color: #000;
+        }
+        .out_services h2{
+            margin: 0;
+            padding: 0;
+            text-transform: uppercase;
+            font-size: 44px;
+            font-weight: 500;
+            color: rgb(3, 3, 3);
     }
-    .out_team h2 span{
+    .out_services .line{
+        width: 100px;
+        margin: 25px auto 55px auto;
         border-bottom: 4px solid #fcac45;
     }
-    .wrapper{
-        margin-top: 15vh;
-        display: flex;
-        justify-content: space-between;
-    }
-    .card{
-        padding-top: 20px;
-        width: 260px;
-        border: 1px solid white;
-    }
-    .card .image img{
-        width: 135px;
-        height: 135px;
-        margin: 0 auto;
-        background-color: #909090;
-        border-radius: 50%;
-    }
-    .card .fullname{
-        font-size: 20px;
-        font-weight: bold;
-    }
-    .card .position{
+    .out_services .title{
         font-size: 16px;
     }
-    .card p{
-        font-size: 14px;
+    .servis_item{
+        padding-top: 10px;
+        border-radius: 5px;
+        width: 260px;
+        transition: 1s;
     }
-     /*-------- our services display --------*/
+    .servis_item:hover{
+        box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+        background: linear-gradient(#f8f2f5, #d8e3fa);
+        width: 260px;
+    }
+    .servis_item .image{
+            width: 135px;
+            height: 135px;
+            margin: 0 auto;
+            border:5px solid #fdb963;
+            border-radius: 50%;
+    }
+    .servis_item .image img{
+        position: relative;
+        top: 30%;
+    }
+    .servis_item .name{
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 25px;
+    }
+    /*-------- clients display --------*/
 
-     .out_services{
-        height: 100vh;
+    .clients{
+        height: 520px;
+        padding-top: 70px;
         font-family: 'Open Sans', sans-serif;
-        background-color: white;
-        text-align: center;
-        color: #000;
+        background-color: #000;
     }
-    .out_services h2{
+
+    .clients h2{
         margin: 0;
+        text-align:center;
         padding: 0;
         text-transform: uppercase;
         font-size: 44px;
         font-weight: 500;
-        color: rgb(3, 3, 3);
-   }
-   .out_services h2 span{
-       border-bottom: 4px solid #fcac45;
-   }
-   .out_services .title{
-       font-size: 16px;
-   }
-   .servis_item{
-       width: 260px;
-   }
-   .servis_item .image{
-        width: 135px;
-        height: 135px;
-        margin: 0 auto;
-        border:5px solid #fdb963;
-        border-radius: 50%;
-   }
-   .servis_item .image img{
-    position: relative;
-    top: 30%;
-}
-   .servis_item .name{
-         text-transform: uppercase;
-         font-weight: 500;
-         font-size: 25px;
+        color: white;
+    }
+    .clients .line{
+        width: 100px;
+        margin: 25px auto 55px auto;
+        border-bottom: 4px solid #fcac45;
+    }
+    .wrapper{
+        padding-top: 105px;
+        display: flex;
+    }
+    .client .item{
+        justify-content: space-between;
     }
